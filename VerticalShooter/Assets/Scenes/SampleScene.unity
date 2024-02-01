@@ -123,6 +123,16 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &225476046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2013805907604008601, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
+  m_PrefabInstance: {fileID: 1711631862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &445345493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2013805907604008601, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
+  m_PrefabInstance: {fileID: 517581859}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &517581859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -131,21 +141,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 536947931920062009, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
-      propertyPath: respawnY
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 2013805907604008601, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.028354645
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.02
+      value: 4.03
       objectReference: {fileID: 0}
     - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -379,7 +385,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -434,13 +440,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2013805907604008601, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.23
+      value: -1.33
       objectReference: {fileID: 0}
     - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.43
+      value: 2.96
       objectReference: {fileID: 0}
     - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -491,13 +501,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2013805907604008601, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.38
+      value: 1.27
       objectReference: {fileID: 0}
     - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.0619235
+      value: 2.06
       objectReference: {fileID: 0}
     - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -536,6 +550,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
+--- !u!1 &1710408168 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2013805907604008601, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
+  m_PrefabInstance: {fileID: 1096659064}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1711631862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -547,14 +566,6 @@ PrefabInstance:
     - target: {fileID: 2013805907604008601, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.94006336
-      objectReference: {fileID: 0}
-    - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.96601194
       objectReference: {fileID: 0}
     - target: {fileID: 6860378872433713069, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -685,7 +696,7 @@ Transform:
   m_GameObject: {fileID: 1891644165}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.27, y: -7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -702,7 +713,7 @@ GameObject:
   - component: {fileID: 2004903815}
   m_Layer: 0
   m_Name: LaserSpawn
-  m_TagString: Untagged
+  m_TagString: Lazer
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -722,6 +733,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 856738400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2041627233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2013805907604008601, guid: 22b2681ed64896b4283ff25ecf7fb89b, type: 3}
+  m_PrefabInstance: {fileID: 1543309287}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2112315940
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +767,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8370983dcc8f3f5479f5b95a48f0d3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyArray:
+  - {fileID: 2041627233}
+  - {fileID: 1710408168}
+  - {fileID: 225476046}
+  - {fileID: 445345493}
+  activeEnemyList:
+  - {fileID: 2041627233}
+  - {fileID: 1710408168}
+  - {fileID: 225476046}
+  - {fileID: 445345493}
 --- !u!4 &2112315942
 Transform:
   m_ObjectHideFlags: 0

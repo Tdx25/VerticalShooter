@@ -26,4 +26,23 @@ public class Enemy : MonoBehaviour
         transform.position = (Vector2)new Vector2(_respawnX, respawnY);
         _rigidbody2D.velocity = Vector2.zero;
     }
+    private void OnMouseDown()
+    {
+        Debug.Log("down");
+        gameObject.SetActive(false);
+        GameManager.Instance.UnlistEnemy(gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+      if (other.gameObject.CompareTag("Lazer"))
+        {
+            Despawn();
+        }
+    }
+    private void Despawn()
+    {
+        gameObject.SetActive(false);
+        GameManager.Instance.UnlistEnemy(gameObject);
+    }
+
 }
