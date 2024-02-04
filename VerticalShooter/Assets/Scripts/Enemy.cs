@@ -43,6 +43,11 @@ public class Enemy : MonoBehaviour
     {
         gameObject.SetActive(false);
         GameManager.Instance.UnlistEnemy(gameObject);
+
     }
+
+
+
+
 
 }
